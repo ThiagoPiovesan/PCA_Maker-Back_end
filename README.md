@@ -41,7 +41,7 @@
 5. Principal component: T = BV
 
 ---
-→ Essentially what you do is you decompose this matrix into kind of directions of maximal variance just like in the singular value decomposition, called the **Principal component**. And the **Loadings** are king of how much of each of those principal components each of the experiments has the loadings in a particular experiment of those principal componentes columns.
+→ Essentially what you do is you decompose this matrix into kind of directions of maximal variance just like in the singular value decomposition, called the **Principal component**. And the **Loadings** are king of how much of each of those principal components each of the experiments has the loadings in a particular experiment of those principal components columns.
 
 → Gives the indication of the amount of the variance of this dataset that these principal component capture.
 
