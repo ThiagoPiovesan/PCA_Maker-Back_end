@@ -14,7 +14,7 @@ from flask_cors import CORS
 
 class Server:
     def __init__(self, ):
-        self.app = Flask(__name__, template_folder='../../client/templates', static_folder='../../client/static')
+        self.app = Flask(__name__)
         self.app.config['CORS_HEADER'] = 'Content-Type'
         
         self.cors = CORS(self.app, supports_credentials=True, resources={r'/*': {"origins": '*'}})
@@ -29,7 +29,7 @@ class Server:
     # Turn debug to False to production mode:    
     def run(self, ):
         self.app.run(
-            debug=True              # Debug mode    
+            debug=False              # Debug mode    
         )
         
 #======================================================#
