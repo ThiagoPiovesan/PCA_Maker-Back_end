@@ -2,7 +2,7 @@
 ---
 
 ## Objective:
--> This file has the meaning pourpose of understand and test the methods and functions developed to execute an PCA implementation in an "Excel" file (planilha).
+-> This project has the main pourpose of understand and test the methods and functions developed to execute an PCA implementation in an "Excel" file (planilha). <br>
 
 ---
 #### Concepts and Languages used:
@@ -14,7 +14,7 @@
 ---
 
 ## How does it work?
-→ You can simply Upload your file on the web application and it will progress the file and get you back the response of that data after the PCA.<br />
+→ You can simply Upload your file on the web application and it will procress the file and get you back the response of that data after the PCA.<br>
 
 ---
 ## A little of theory and concepts included (You can skip if you want to):
@@ -31,12 +31,12 @@
 → Subtract the mean of each variable from the dataset so that the dataset should be centered on the origin.  <br>
 
 3. Covariance matrix of the rows of B:
-Calculate the Covariance Matrix of the mean-centered data. The covariance matrix is a square matrix denoting the covariance of the elements with each other. <br>
+→ Calculate the Covariance Matrix of the mean-centered data. The covariance matrix is a square matrix denoting the covariance of the elements with each other. <br>
 
 4. Compute Eigenvalues and Eigenvectors of C:
-The Eigenvectors of the Covariance matrix we get are Orthogonal to each other and each vector represents a principal axis.
-A Higher Eigenvalue corresponds to a higher variability. Hence the principal axis with the higher Eigenvalue will be an axis capturing higher variability in the data. <br>
-Orthogonal means the vectors are mutually perpendicular to each other. Eigenvalues and vectors seem to be very scary until we get the idea and concepts behind it. <br>
+→ The Eigenvectors of the Covariance matrix we get are Orthogonal to each other and each vector represents a principal axis. <br>
+→ A Higher Eigenvalue corresponds to a higher variability. Hence the principal axis with the higher Eigenvalue will be an axis capturing higher variability in the data. <br>
+→ Orthogonal means the vectors are mutually perpendicular to each other. Eigenvalues and vectors seem to be very scary until we get the idea and concepts behind it. <br>
 
 5. Principal component: T = BV
 
@@ -53,24 +53,14 @@ Orthogonal means the vectors are mutually perpendicular to each other. Eigenvalu
     <summary> Reference </summary>
     → https://www.youtube.com/watch?v=fkf4IBRSeEc <br>
     → https://www.askpython.com/python/examples/principal-component-analysis <br>
+    → https://youtu.be/Oi4SJqJIL2E <br>
+    → https://youtu.be/fu7uXxZMzC8 <br>
+    → https://youtu.be/p4bvCFygfW0 <br>
 
 </details>
 
 ---
 ## Thanks for the read & I hope you enjoy it!
-
-> To get started/contribute (if you want - optional) ...
-
-- **Option 1**
-    - 🍴 Fork this repo and pull request!
-
-- **Option 2**
-    - 👯 Clone this repo: git@knowledgebase.datah.com.br:etpiovesan/sparta.git
-    ```
-    $ git clone 
-    ```
-
-- **Enjoy it!**
 
 ---
 

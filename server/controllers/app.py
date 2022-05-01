@@ -35,12 +35,10 @@ def save_file():
             if upload_file.filename != "":
                 File(upload_file)
 #======================================================#        
-
             return jsonify(success=True)
         except Exception as e:
             print(e)
             return jsonify(success=False)
-        
 #======================================================#    
 @app.route("/dashboard", methods=["GET"])
 @cross_origin(supports_credentials=True)
@@ -55,4 +53,4 @@ def dashboard():
 @app.route("/about", methods=["GET"])
 @cross_origin(supports_credentials=True)
 def about():
-    return "Textos e mais textos!!"
+    return "True"

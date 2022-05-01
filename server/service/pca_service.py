@@ -13,8 +13,8 @@ import seaborn as sb
 import matplotlib.pyplot as plt
 
 from server.utils.PCA import PCA
-
-DEBUG = True
+    
+DEBUG = False                                                   # Set True to Grafic debug
 #======================================================#
 class PCAService:
     UPLOAD_DIR = './server/data/'                               # Where the file will be saved
@@ -50,7 +50,7 @@ class PCAService:
         
         # Considering that the first column and line are consecutively the features
         # names [lines] (can be empty) and the number of experiment [columns]
-        new_dataFrame = dataFrame.select_dtypes(exclude='object')           # Select only numeric data
+        new_dataFrame = dataFrame.select_dtypes(exclude='object')       # Select only numeric data
         
         if 'target' in dataFrame:                                       # If the target column exists:
             target = dataFrame['target']                                # Get the target column
@@ -101,7 +101,6 @@ class PCAService:
             plt.show() 
             
         return principal_df.to_numpy().tolist()
-        # return principal_df.to_dict()
 #======================================================#
 
 
